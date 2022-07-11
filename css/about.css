@@ -411,10 +411,6 @@ body {
   text-transform: uppercase;
   color: #83888F;
   transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
 }
 
 .header__link:hover {
@@ -463,10 +459,6 @@ body {
   background-position: calc(50% - 0px);
   padding-top: 117px;
   padding-bottom: 100px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -ms-border-radius: 10px 10px 10px 10px;
-  -o-border-radius: 10px 10px 10px 10px;
 }
 
 .hero__div-title {
@@ -552,10 +544,6 @@ body {
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 .intro__title-div {
@@ -592,10 +580,6 @@ body {
   margin-left: 30px;
   margin-top: -100px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 @media only screen and (max-width: 960px) {
