@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__div">
+        <a class="header__logo" href="./index.html">
+          <svg class="icon">
+            <use xlink:href="imgs/header__logo.svg#header__logo"></use>
+          </svg>
+        </a>
+
+        <nav class="header__navbar">
+          <ul class="header__list">
+            <li class="header__link">
+              <a href="./index.html" class="header__link">HOME</a>
+            </li>
+
+            <li class="header__link">
+              <a href="./about.html" class="header__link">ABOUT US</a>
+            </li>
+
+            <li class="header__link">
+              <a href="./contact.html" class="header__link">Create your plan</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="header__button">
+          <svg class="icon-button">
+            <use xlink:href="imgs/hamburger.svg#hamburger"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__div">
+          <div class="hero__div-title">
+
+            <h1 class="hero__heading">
+              Create a plan
+            </h1>
+
+            <p class="hero__text">
+              Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees
+              from around the globe delivered fresh to your door.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="container">
+        <div class="quote__div">
+
+          <h2 class="visually-hidden">
+            How it works
+          </h2>
+          <img src="imgs/contactttpng.png " alt="line" class="quote__img" width="791" height="31">
+
+          <ul class="quote__list">
+            <li class="quote__item">
+              <span class="quote__span-text">01</span>
+
+              <h3 class="quote__sub-title child1">
+                Pick your
+                coffee
+              </h3>
+
+              <p class="quote__sub-text">
+                Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair
+                prices for them. There are new coffees in all profiles every .
+              </p>
+            </li>
+
+            <li class="quote__item">
+              <span class="quote__span-text">02</span>
+
+              <h3 class="quote__sub-title">
+                Choose the frequency
+              </h3>
+
+              <p class="quote__sub-text">
+                Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel
+                your subscription with no commitment.
+              </p>
+            </li>
+
+            <li class="quote__item">
+              <span class="quote__span-text">03</span>
+
+              <h3 class="quote__sub-title">
+                Receive and enjoy!
+              </h3>
+
+              <p class="quote__sub-text">
+                We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class
+                coffees curated to provide a distinct tasting.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="inner">
+      <div class="container">
+        <div class="inner__div">
+          <div class="inner__check-choose">
+            <ul class="inner__check-list">
+
+              <li class="inner__check-item">
+                <input class="foe" id="foe" name="foe" type="radio">
+                <label for="foe" class="inner__check-button button"><span class="inner__sub-text">01</span>Preferences
+                </label>
+              </li>
+
+              <li class="inner__check-item">
+                <input class="foe" id="foe1" name="foe" type="radio">
+                <label for="foe1" class="inner__check-button"><span class="inner__sub-text">02</span>Bean Type</label>
+              </li>
+
+              <li class="inner__check-item">
+                <input class="foe" id="foe2" name="foe" type="radio">
+                <label for="foe2" class="inner__check-button"><span class="inner__sub-text">03</span>Quantity</label>
+              </li>
+
+              <li class="inner__check-item">
+                <input class="foe" id="foe3" name="foe" type="radio">
+                <label for="foe3" class="inner__check-button"><span class="inner__sub-text">04</span>Grind
+                  Option</label>
+              </li>
+
+              <li class="inner__check-item">
+                <input class="foe" id="foe4" name="foe" type="radio">
+                <label for="foe4" class="inner__check-button"><span class="inner__sub-text">05</span>Deliveries</label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="inner__checked-div">
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee" id="choose__coffee">
+              <label class="inner__label" for="choose__coffee">How do you drink your coffee?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+
+              <ul class="inner__list">
+                <li class="inner__item">
+                  <input type="radio" id="choose__card" name="choose__card">
+                  <label class="inner__label-div" for="choose__card">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Capsule
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Compatible with Nespresso systems and similar brewers
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card1" name="choose__card">
+                  <label class="inner__label-div" for="choose__card1">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Filter
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        For pour over or drip methods like Aeropress, Chemex,
+                      </p>
+                    </div>
+                  </label>
+
+                </li>
+                <li class="inner__item">
+                  <input type="radio" id="choose__card2" name="choose__card">
+                  <label for="choose__card2">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Espresso
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Dense and finely ground beans for an intense finely.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee-2" id="choose__coffee-2">
+              <label class="inner__label" for="choose__coffee-2">What type of coffee?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+
+              <ul class="inner__list">
+                <li type="checkbox" class="inner__item">
+                  <input type="radio" id="choose__card3" name="choose__card2">
+                  <label for="choose__card3">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Single Origin
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Distinct, high quality coffee from a specific family-owned farm
+                      </p>
+
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card4" name="choose__card2">
+                  <label for="choose__card4">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Decaf
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Just like regular coffee, except the caffeine has been removed
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card5" name="choose__card2">
+                  <label for="choose__card5">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Blended
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Combination of two or three dark roasted beans of organic coffees
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee-3" id="choose__coffee-3">
+              <label class="inner__label" for="choose__coffee-3">How much would you like?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+              <ul class="inner__list">
+                <li class="inner__item">
+                  <input type="radio" id="choose__card6" name="choose__card3">
+                  <label for="choose__card6">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        250g
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Perfect for the solo drinker. Yields about 12 delicious cups.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card7" name="choose__card3">
+                  <label for="choose__card7">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        500g
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Perfect option for a couple. Yields about 40 delectable cups.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card8" name="choose__card3">
+                  <label for="choose__card8">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        1000g
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Perfect for offices and events. Yields about 90 delightful cups.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee-4" id="choose__coffee-4">
+              <label class="inner__label" for="choose__coffee-4">Want us to grind them?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+              <ul class="inner__list">
+                <li class="inner__item">
+                  <input type="radio" id="choose__card9" name="choose__card4">
+                  <label for="choose__card9">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Wholebean
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Best choice if you cherish the full sensory experience
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card10" name="choose__card4">
+                  <label for="choose__card10">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Filter
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        For drip or pour-over coffee methods such as V60 or Aeropress
+                      </p>
+                    </div>
+                  </label>
+                </li>
+                
+                <li class="inner__item">
+                  <input type="radio" id="choose__card11" name="choose__card4">
+                  <label for="choose__card11">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Cafetiére
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Course ground beans specially suited for french press coffee
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee-5" id="choose__coffee-5">
+              <label class="inner__label" for="choose__coffee-5">How often should we deliver?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+              <ul class="inner__list">
+                <li class="inner__item">
+                  <input type="radio" id="choose__card12" name="choose__card5">
+                  <label for="choose__card12">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Every week
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        $7.20 per shipment. Includes free first-class shipping.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card13" name="choose__card5">
+                  <label for="choose__card13">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Every 2 week
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        $9.60 per shipment. Includes free priority tead.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card14" name="choose__card5">
+                  <label for="choose__card14">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Every month
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        $12.00 per shipment. Includes free priority shipping.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__price">
+              <input type="checkbox" name="choose__coffee-6" id="choose__coffee-6">
+              <label class="inner__label" for="choose__coffee-6">How do you drink your coffee?<img src="imgs/rotate.svg"
+                  alt="rotate"></label>
+
+              <ul class="inner__list">
+                <li class="inner__item">
+                  <input type="radio" id="choose__card15" name="choose__card6">
+                  <label for="choose__card15">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Capsule
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Compatible with Nespresso systems and similar brewers
+                      </p>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="inner__item">
+                  <input type="radio" id="choose__card16" name="choose__card6">
+                  <label for="choose__card16">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Filter
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        For pour over or drip methods like Aeropress, Chemex, and V60
+                      </p>
+                    </div>
+                  </label>
+                </li>
+                <li class="inner__item">
+                  <input type="radio" id="choose__card17" name="choose__card6">
+                  <label for="choose__card17">
+                    <div class="inner__label-div">
+
+                      <p class="inner__sub1-text">
+                        Espresso
+                      </p>
+
+                      <p class="inner__sub-text-2">
+                        Dense and finely ground beans for an intense, flavorful.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="inner__order">
+              <span class="inner__order-span">Order Summary</span>
+
+              <blockquote class="inner__quote">
+                “I drink my coffee using <span>Capsules</span>, with a <span>Decaf</span> type of bean.
+                <span>250g</span>, sent to me <span>Every Week</span>.”
+              </blockquote>
+            </div>
+
+            <button class="inner__buttton">
+              Create my plan!
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__div">
+          <a href="./index.html" class="footer__logo">
+            <svg class="footer__logo-img">
+              <use xlink:href="imgs/footer_logo.svg#footer_logo"></use>
+            </svg>
+          </a>
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="./index.html" class="footer__link">HOME</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="./about.html" class="footer__link">ABOUT US</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="./contact.html" class="footer__link">Create your plan</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer__list-img">
+            <li class="footer__item-img">
+              <a href="https://www.facebook.com/profile.php?id=100081532337178">
+                <svg class="facebook">
+                  <use class="facebook" xlink:href="imgs/facebook.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer__item-img">
+              <a href="https://www.instagram.com/_shax.me_/">
+                <svg class="twitter">
+                  <use class="twitter" xlink:href="imgs/twitter.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer__item-img">
+              <a href="https://www.instagram.com/_shax.me_/">
+                <svg class="instagram">
+                  <use class="instagram-icon" xlink:href="imgs/instagram.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

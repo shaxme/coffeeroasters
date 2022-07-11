@@ -1,0 +1,35 @@
+@mixin ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin heading {
+  margin: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900; 
+}
+
+@mixin p {
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+@mixin link {
+  text-decoration: none;
+  
+}
+
+@mixin button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}

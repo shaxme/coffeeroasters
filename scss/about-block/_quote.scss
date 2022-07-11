@@ -1,0 +1,102 @@
+.quote {
+  margin-bottom: 100px; 
+}
+
+.quote__div {
+  padding: 0px 85px
+}
+
+.quote__heading {
+  @include heading;
+  margin-bottom: 72px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.quote__list {
+  @include ul;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote__item {
+  max-width: 285px;
+  width: 100%;
+}
+
+.quote__img {
+  margin-bottom: 45px;
+}
+
+.quote__sub-title {
+  @include heading;
+  margin-bottom: 25px;
+  font-size: 4ch;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.quote__sub-list {
+padding: 0;
+margin: 0;
+list-style: none;
+
+}
+
+.quote__sub-item {
+  margin-top: 10px;
+}
+
+.quote__link {
+  @include link;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.quote__link:hover {
+  color: #66D2CF;
+}
+
+.chilf {
+  margin: 0px 10px;
+} 
+
+@media only screen and (max-width:1056px) {
+  .quote__sub-title {
+    font-size: 3ch;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width:878px) {
+  .quote__list {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .quote__div {
+    padding: 0px 24px;
+  }
+
+  .quote__item {
+    margin-bottom: 80px;
+  }
+
+  .quote__sub-title {
+    font-size: 3.5ch;
+    line-height: 36px;
+  }
+
+  .quote__heading {
+    text-align: center;
+  }
+
+}
